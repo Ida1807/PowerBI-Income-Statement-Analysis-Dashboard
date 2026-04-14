@@ -22,4 +22,5 @@ Cross-country comparison, trend analysis over multiple years and identification 
 # 🧮 DAX Measures & Calculations
 DAX was used extensively to create dynamic and reusable measures.
 🔹 Core Measures
-SalesYTD = TOTALYTD([SalesTotal],tbl_Calendar[Date])
+- SalesTotal = CALCULATE([Total_FTP],'Dim_Chart of Accounts'[SubClass] = "Sales")
+- 
