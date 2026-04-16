@@ -27,11 +27,11 @@ DAX was used extensively to create dynamic and reusable measures.
 - Gross Profit = CALCULATE([TotalTransactions], 'Dim_Chart of Accounts'[Class] = "Trading account")
 - Net Profit = CALCULATE([TotalTransactions],'Dim_Chart of Accounts'[Report]= "Profit and Loss")
 
-+ Profitability Ratios
+🔹Profitability Ratios
 - GrossProfit Margin = [Gross Profit]/[TotalSales]
 - NetProfit Margin = [Net Profit]/[TotalSales]
-
-+ Time Intelligence Measures
+- 
+🔹Time Intelligence Measures
 - SalesYTD = TOTALYTD([TotalSales],Dim_Calendar[Date])
 - SalesQTD = TOTALQTD([TotalSales],Dim_Calendar[Date])
 - SalesPYTD = CALCULATE([TotalSales],SAMEPERIODLASTYEAR(Dim_Calendar[Date]))
