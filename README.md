@@ -1,6 +1,6 @@
 #  Power BI Income Statement Analysis Dashboard
 #  Project Overview
-This project presents a financial analysis dashboard built in Power BI for Global Trading Group, a multinational trading and distribution company. The dashboard evaluates company performance using a structured Income Statement (P&L) developed directly in Power BI using matrix visuals and DAX measures to replicate a real-world financial reporting format. A star schema data model was implemented, with a central General Ledger fact table containing transactional data and supporting dimension tables such as Date, Chart of Accounts, and Territory. This structure enables efficient filtering, scalable analysis, and dynamic insights into revenue, costs, and profitability.
+This project presents a financial analysis dashboard built in Power BI for Global Trading Group, a multinational trading and distribution company. The dashboard evaluates company performance using a structured Income Statement (P&L) built directly in Power BI using matrix visuals and DAX measures to replicate a real-world financial reporting format. A star schema data model was implemented, with a central General Ledger fact table containing transactional data and supporting dimension tables such as Date, Chart of Accounts, and Territory. This structure enables efficient filtering, scalable analysis, and dynamic insights into revenue, costs, and profitability.
 
 #  Key Business Metrics
 The dashboard tracks core financial performance indicators, including:
