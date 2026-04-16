@@ -33,7 +33,7 @@ DAX was used extensively to create dynamic and reusable measures.
   
 🔹Time Intelligence Measures
 - SalesYTD = TOTALYTD([TotalSales],Dim_Calendar[Date])
-- SalesQTD = TOTALQTD([TotalSales],Dim_Calendar[Date])
+- SalesQTD = TOTALQTD([TotalSales],Dim_Calendar[Date]) 
 - SalesPYTD = CALCULATE([TotalSales],SAMEPERIODLASTYEAR(Dim_Calendar[Date]))
 - SalesMTD = TOTALMTD([TotalSales], Dim_Calendar[Date])
 - YTDGrowth % = DIVIDE([SalesYTD]-[SalesPYTD], [SalesPYTD])
