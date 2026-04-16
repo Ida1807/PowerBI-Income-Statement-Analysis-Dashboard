@@ -30,7 +30,7 @@ DAX was used extensively to create dynamic and reusable measures.
 🔹Profitability Ratios
 - GrossProfit Margin = [Gross Profit]/[TotalSales]
 - NetProfit Margin = [Net Profit]/[TotalSales]
-- 
+  
 🔹Time Intelligence Measures
 - SalesYTD = TOTALYTD([TotalSales],Dim_Calendar[Date])
 - SalesQTD = TOTALQTD([TotalSales],Dim_Calendar[Date])
